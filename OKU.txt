@@ -1,0 +1,8 @@
+APK OLUŞTURMA (GitHub Actions)
+1. github.com'da yeni bir depo (repository) oluşturun.
+2. Bu klasördeki TÜM dosyaları, gizli ".github" klasörü dahil, depoya yükleyin.
+   (Web'den yüklerken ".github" klasörü sürüklenmezse: Add file > Create new file ile
+   ".github/workflows/apk.yml" adıyla oluşturup apk.yml içeriğini yapıştırın.)
+3. Üstteki "Actions" sekmesinde derleme başlar (5-8 dk).
+4. Biten derlemenin en altındaki "Artifacts" bölümünden zikirmatik-apk dosyasını indirin.
+5. Zip içindeki app-debug.apk dosyasını telefona kurun.
